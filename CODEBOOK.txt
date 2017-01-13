@@ -1,0 +1,249 @@
+					DATA DICTIONARY 
+subjectid		
+	Subject Identifier
+		1..30  .Identifies the subject who performed the activity for each window sample.
+activityname	
+	Activity performed during the signal readings.
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+tBodyAcc.mean...X
+	Mean of means of time domain accelerometer signal for body on X axis.
+		Range: -1 to 1
+tBodyAcc.mean...Y
+	Mean of means of time domain accelerometer signal for body on Y axis.
+		Range: -1 to 1
+tBodyAcc.mean...Z
+	Mean of means of time domain accelerometer signal for body on Z axis.
+		Range: -1 to 1
+tGravityAcc.mean...X
+	Mean of means of time domain accelerometer signal for gravity on X axis.
+		Range: -1 to 1
+tGravityAcc.mean...Y
+	Mean of means of time domain accelerometer signal for gravity on Y axis.
+		Range: -1 to 1
+tGravityAcc.mean...Z
+	Mean of means of time domain accelerometer signal for gravity on Z axis.
+		Range: -1 to 1
+tBodyAccJerk.mean...X
+	Mean of means of the time domain body linear acceleration jerk signal on X axis.
+		Range: -1 to 1
+tBodyAccJerk.mean...Y
+	Mean of means of the time domain body linear acceleration jerk signal on Y axis.
+		Range: -1 to 1
+tBodyAccJerk.mean...Z
+	Mean of means of the time domain body linear acceleration jerk signal on Z axis.
+		Range: -1 to 1
+tBodyGyro.mean...X
+	Mean of means of the time domain gyroscope signal on the X axis.
+		Range: -1 to 1
+tBodyGyro.mean...Y
+	Mean of means of the time domain gyroscope signal on the Y axis.
+		Range: -1 to 1
+tBodyGyro.mean...Z
+	Mean of means of the time domain gyroscope signal on the Z axis.
+		Range: -1 to 1
+tBodyGyroJerk.mean...X
+	Mean of means of the time domain angular velocity jerk signal on the X axis.
+		Range: -1 to 1
+tBodyGyroJerk.mean...Y
+	Mean of means of the time domain angular velocity jerk signal on the Y axis.
+		Range: -1 to 1
+tBodyGyroJerk.mean...Z
+	Mean of means of the time domain angular velocity jerk signal on the Z axis.
+		Range: -1 to 1
+tBodyAccMag.mean..
+	Mean of means of the time domain accelerometer signal magnitude for body acceleration.
+		Range: -1 to 1
+tGravityAccMag.mean..
+	Mean of means of the time domain accelerometer signal magnitude for gravity acceleration.
+		Range: -1 to 1
+tBodyAccJerkMag.mean..
+	Mean of means of the time domain body linear acceleration jerk magnitude.
+		Range: -1 to 1
+tBodyGyroMag.mean..
+	Mean of means of the time domain gyroscope signal magnitude.
+		Range: -1 to 1
+tBodyGyroJerkMag.mean..
+	Mean of means of the time domain angular velocity jerk signal magnitude.
+		Range: -1 to 1
+fBodyAcc.mean...X
+	Mean of means of the frequency domain accelerometer signal for body on the X axis.
+		Range: -1 to 1
+fBodyAcc.mean...Y
+	Mean of means of the frequency domain accelerometer signal for body on the Y axis.
+		Range: -1 to 1
+fBodyAcc.mean...Z
+	Mean of means of the frequency domain accelerometer signal for body on the Z axis.
+		Range: -1 to 1
+fBodyAcc.meanFreq...X
+	Mean of mean frequencies of the frequency domain accelerometer signal on the X axis.
+		Range: -1 to 1
+fBodyAcc.meanFreq...Y
+	Mean of mean frequencies of the frequency domain accelerometer signal on the Y axis.
+		Range: -1 to 1
+fBodyAcc.meanFreq...Z
+	Mean of mean frequencies of the frequency domain accelerometer signal on the Z axis.
+		Range: -1 to 1
+fBodyAccJerk.mean...X
+	Mean of means of the frequency domain body linear acceleration jerk signal on the X axis.
+		Range: -1 to 1
+fBodyAccJerk.mean...Y
+	Mean of means of the frequency domain body linear acceleration jerk signal on the Y axis.
+		Range: -1 to 1
+fBodyAccJerk.mean...Z
+	Mean of means of the frequency domain body linear acceleration jerk signal on the Z axis.
+		Range: -1 to 1
+fBodyAccJerk.meanFreq...X
+	Mean of mean frequencies of the frequency domain body linear acceleration jerk signal on the X axis.
+		Range: -1 to 1
+fBodyAccJerk.meanFreq...Y
+	Mean of mean frequencies of the frequency domain body linear acceleration jerk signal on the Y axis.
+		Range: -1 to 1
+fBodyAccJerk.meanFreq...Z
+	Mean of mean frequencies of the frequency domain body linear acceleration jerk signal on the Z axis.
+		Range: -1 to 1
+fBodyGyro.mean...X
+	Mean of means of the frequency domain gyroscope signal on the X axis.
+		Range: -1 to 1
+fBodyGyro.mean...Y
+	Mean of means of the frequency domain gyroscope signal on the Y axis.
+		Range: -1 to 1
+fBodyGyro.mean...Z
+	Mean of means of the frequency domain gyroscope signal on the Z axis.
+		Range: -1 to 1
+fBodyGyro.meanFreq...X
+	Mean of mean frequencies of the frequency domain gyroscope signal on the X axis.
+		Range: -1 to 1
+fBodyGyro.meanFreq...Y
+	Mean of mean frequencies of the frequency domain gyroscope signal on the Y axis.
+		Range: -1 to 1
+fBodyGyro.meanFreq...Z
+	Mean of mean frequencies of the frequency domain gyroscope signal on the Z axis.
+		Range: -1 to 1
+fBodyAccMag.mean..
+	Mean of means of the frequency domain accelerometer signal magnitude for body acceleration.
+		Range: -1 to 1
+fBodyAccMag.meanFreq..
+	Mean of mean frequencies of the frequency domain accelerometer signal magnitude for body acceleration.
+		Range: -1 to 1
+fBodyBodyAccJerkMag.mean..
+	Mean of means of the frequency domain accelerometer signal jerk magnitude.
+		Range: -1 to 1
+fBodyBodyAccJerkMag.meanFreq..
+	Mean of mean frequencies of the frequency domain accelerometer signal jerk magnitude.
+		Range: -1 to 1
+fBodyBodyGyroMag.mean..
+	Mean of means of the frequency domain gyroscope signal magnitude.
+		Range: -1 to 1
+fBodyBodyGyroMag.meanFreq..
+	Mean of mean frequencies of the frequency domain gyroscope body signal magnitude.
+		Range: -1 to 1
+fBodyBodyGyroJerkMag.mean..
+	Mean of means of the frequency domain gyroscope jerk signal magnitude.
+		Range: -1 to 1
+fBodyBodyGyroJerkMag.meanFreq..
+	Mean of mean frequencies of the frequency domain gyroscope jerk signal magnitude.
+		Range: -1 to 1
+tBodyAcc.std...X
+	Mean of standard deviations of time domain accelerometer signal for body on X axis.
+		Range: -1 to 1
+tBodyAcc.std...Y
+	Mean of standard deviations of time domain accelerometer signal for body on Y axis.
+		Range: -1 to 1
+tBodyAcc.std...Z
+	Mean of standard deviations of time domain accelerometer signal for body on Z axis.
+		Range: -1 to 1
+tGravityAcc.std...X
+	Mean of standard deviations of time domain accelerometer signal for gravity on X axis.
+		Range: -1 to 1
+tGravityAcc.std...Y
+	Mean of standard deviations of time domain accelerometer signal for gravity on Y axis.
+		Range: -1 to 1
+tGravityAcc.std...Z
+	Mean of standard deviations of time domain accelerometer signal for gravity on Z axis.
+		Range: -1 to 1
+tBodyAccJerk.std...X
+	Mean of standard deviations of the time domain body linear acceleration jerk signal on X axis.
+		Range: -1 to 1
+tBodyAccJerk.std...Y
+	Mean of standard deviations of the time domain body linear acceleration jerk signal on Y axis.
+		Range: -1 to 1
+tBodyAccJerk.std...Z
+	Mean of standard deviations of the time domain body linear acceleration jerk signal on Z axis.
+		Range: -1 to 1
+tBodyGyro.std...X
+	Mean of standard deviations of the time domain gyroscope signal on the X axis.
+		Range: -1 to 1
+tBodyGyro.std...Y
+	Mean of standard deviations of the time domain gyroscope signal on the Y axis.
+		Range: -1 to 1
+tBodyGyro.std...Z
+	Mean of standard deviations of the time domain gyroscope signal on the Z axis.
+		Range: -1 to 1
+tBodyGyroJerk.std...X
+	Mean of standard deviations of the time domain angular velocity jerk signal on the X axis.
+		Range: -1 to 1
+tBodyGyroJerk.std...Y
+	Mean of standard deviations of the time domain angular velocity jerk signal on the Y axis.
+		Range: -1 to 1
+tBodyGyroJerk.std...Z
+	Mean of standard deviations of the time domain angular velocity jerk signal on the Z axis.
+		Range: -1 to 1
+tBodyAccMag.std..
+	Mean of standard deviations of the time domain accelerometer signal magnitude for body acceleration.
+		Range: -1 to 1
+tGravityAccMag.std..
+	Mean of standard deviations of the time domain accelerometer signal magnitude for gravity acceleration.
+		Range: -1 to 1
+tBodyAccJerkMag.std..
+	Mean of standard deviations of the time domain body linear acceleration jerk magnitude.
+		Range: -1 to 1
+tBodyGyroMag.std..
+	Mean of standard deviations of the time domain gyroscope signal magnitude.
+		Range: -1 to 1
+tBodyGyroJerkMag.std..
+	Mean of standard deviations of the time domain angular velocity jerk signal magnitude.
+		Range: -1 to 1
+fBodyAcc.std...X
+	Mean of standard deviations of the frequency domain accelerometer signal for body on the X axis.
+		Range: -1 to 1
+fBodyAcc.std...Y
+	Mean of standard deviations of the frequency domain accelerometer signal for body on the Y axis.
+		Range: -1 to 1
+fBodyAcc.std...Z
+	Mean of standard deviations of the frequency domain accelerometer signal for body on the Z axis.
+		Range: -1 to 1
+fBodyAccJerk.std...X
+	Mean of standard deviations of the frequency domain body linear acceleration jerk signal on the X axis.
+		Range: -1 to 1
+fBodyAccJerk.std...Y
+	Mean of standard deviations of the frequency domain body linear acceleration jerk signal on the Y axis.
+		Range: -1 to 1
+fBodyAccJerk.std...Z
+	Mean of standard deviations of the frequency domain body linear acceleration jerk signal on the Z axis.
+		Range: -1 to 1
+fBodyGyro.std...X
+	Mean of standard deviations of the frequency domain gyroscope signal on the X axis.
+		Range: -1 to 1
+fBodyGyro.std...Y
+	Mean of standard deviations of the frequency domain gyroscope signal on the Y axis.
+		Range: -1 to 1
+fBodyGyro.std...Z
+	Mean of standard deviations of the frequency domain gyroscope signal on the Z axis.
+		Range: -1 to 1
+fBodyAccMag.std..
+	Mean of standard deviations of the frequency domain accelerometer signal magnitude for body acceleration.
+		Range: -1 to 1
+fBodyBodyAccJerkMag.std..
+	Mean of standard deviations of the frequency domain accelerometer signal jerk magnitude.
+		Range: -1 to 1
+fBodyBodyGyroMag.std..
+	Mean of standard deviations of the frequency domain gyroscope signal magnitude.
+		Range: -1 to 1
+fBodyBodyGyroJerkMag.std..
+	Mean of standard deviations of the frequency domain gyroscope jerk signal magnitude.
+		Range: -1 to 1

@@ -1,5 +1,8 @@
 This README contains a list of the files and the steps performed to create a tidy dataset of the UCI HAR data.  The
-final table created is a wide dataset and follows the principles of tidy data.
+final table created is a wide dataset and follows the principles of tidy data.  
+
+The downloaded file can be read into a dataframe with the following command:
+	tidydata <- read.table("./tidy_sensor_data.txt", header = TRUE)
 
 The dataset includes the following files:
 =========================================
